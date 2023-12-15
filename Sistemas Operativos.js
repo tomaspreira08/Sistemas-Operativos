@@ -9,12 +9,3 @@ function hideText(id) {
 }
 
 
-var topic3 = document.getElementById('tiposSistemasOperativos');
-
-topic3.onmouseover = function () {
-    topic3.querySelector('.topic-text-3').style.opacity = "1";
-};
-
-topic3.onmouseout = function () {
-    topic3.querySelector('.topic-text-3').style.opacity = "0";
-};
