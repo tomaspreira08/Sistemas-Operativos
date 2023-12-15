@@ -10,6 +10,8 @@
   #title-content h1 {
     display: inline-block;
     animation: waveAnimation 2s infinite linear;
+    margin: 0; /* Remover a margem padrão do título */
+
   }
 
 body {
@@ -21,10 +23,18 @@ body {
 
 #title-content {
     font-size: 50px;
+    background-image: url('background\ 2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px; /* Ajuste o valor conforme necessário para cobrir o conteúdo */
+    border-radius: 50px; /* Borda arredondada */
+    text-align: center; /* Centralizar o texto */
+    color: whitesmoke; /* Cor do texto para contraste */
 }
-
 #text-content {
     font-size: 20px;
+    margin: 5px 0; /* Ajuste a margem do subtítulo conforme necessário */
+
 }
 
 .topic {
